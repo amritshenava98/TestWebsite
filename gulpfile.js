@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var browser-sync = require('browser-sync').create();
 var sass = require('gulp-sass');
 
-gulp.task('scss', function(){
+gulp.task('sass', function(){
 
   return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
         .pipe(sass())
